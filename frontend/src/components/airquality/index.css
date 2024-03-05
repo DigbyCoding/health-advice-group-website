@@ -1,0 +1,67 @@
+.air-quality-widget {
+  margin-left: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 35px;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(47, 142, 207, 1) 0%,
+    rgba(26, 37, 52, 1) 100%
+  );
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.current-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 58px;
+  font-size: 3rem;
+  font-weight: 25px;
+}
+
+.co {
+  font-size: 2rem;
+  font-weight: 25px;
+  margin-top: 20px;
+}
+
+.o3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.pm2_5 {
+  font-size: 1.5rem;
+}
+
+.pm10 {
+  font-size: 1.5rem;
+}
+
+.no2 {
+  font-size: 1.5rem;
+}
+
+.so2 {
+  font-size: 1.5rem;
+}
+
+@keyframes moveWind {
+  0%,
+  100% {
+    transform: translateX(-65px);
+  }
+  50% {
+    transform: translateX(65px);
+  }
+}
