@@ -35,6 +35,9 @@ cd frontend
 npm run
 ```
 
+To check the backend in its current state, you will want to go to [here](https://localhost:8000/admin/)
+And if you want to see the frontend, you will want to go to [here](https://localhost:3000)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
